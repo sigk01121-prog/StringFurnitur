@@ -63,7 +63,7 @@ header .head .nav ul {
 
 /* hero */
 .main-hero .hero-img {
-    background: url(../img/hero_img02.jpg) no-repeat center/cover;
+    background: url(/img/hero_img02.jpg) no-repeat center/cover;
     height: 800px;
     position: relative;
 }

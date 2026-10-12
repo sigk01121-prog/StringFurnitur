@@ -1,0 +1,152 @@
+@charset "uft-8";
+@import url(reset.css);
+
+#wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 1680px;
+    margin: 100px auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.product-price {
+    color: #505050;
+}
+
+/* header */
+
+.header.inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .head img {
+    width: 100%;
+}
+
+header .head .nav {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+
+header .head .nav ul {
+    display: flex;
+    gap: 65px;
+}
+
+.search a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.search-icon {
+    width: 15px;
+    height: 25px;
+    opacity: 70%;
+}
+
+/* product-list */
+
+.product-list ul {
+    display: flex;
+    gap: 20px;
+}
+
+.product-list ul li img {
+    border: 1px solid #bbb;
+    margin-bottom: 25px;
+}
+.product-item-title {
+    font-size: 25px;
+    font-weight: 300;
+}
+.product-item-color {
+    font-size: 18px;
+}
+.product-price {
+    font-size: 18px;
+    color: 505050;
+}
+.product-img {
+    position: relative;
+}
+
+.product-img .hover {
+    display: none;
+}
+
+.product-img:hover .normal {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.product-img:hover .hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 1;
+
+}
+.product-list .product-item-title,
+.product-list .product-item-color {
+    margin-bottom: 15px;
+}
+
+
+/* footer */
+footer {
+    border-top: 1px solid #979797;
+    margin-bottom: 0;
+}
+
+footer .inner {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer .foot-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer .foot-info .foot-links {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.foot-links .add,
+.foot-links .email {
+    margin-bottom: 15px;
+}
+
+footer .foot-social {
+    display: flex;
+    gap: 20px;
+}
+
+.foot-social img {
+    width: 30px;
+    height: 30px;
+}

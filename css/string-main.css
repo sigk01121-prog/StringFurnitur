@@ -63,7 +63,7 @@ header .head .nav ul {
 
 /* hero */
 .main-hero .hero-img {
-    background: url(/img/hero_img02.jpg) no-repeat center/cover;
+    background: url(../img/hero_img02.jpg) no-repeat center/cover;
     height: 800px;
     position: relative;
 }
@@ -167,7 +167,7 @@ header .head .nav ul {
     left: 0;
     display: block;
     opacity: 1;
-    
+
 }
 
 .best-product-list .product-item-title,

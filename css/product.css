@@ -160,8 +160,8 @@
 
 .banner-info {
     position: absolute;
-    top: 31%;
-    right: 28%;
+    top: 30%;
+    right: 32%;
     display: flex;
     width: 300px;
     height: 150px;
@@ -180,18 +180,25 @@
     gap: 5px;
 }
 
-.banner-info .banner-text span,
-.banner-info .banner-text p {
+.banner-info .banner-text span {
     display: block;
     margin-bottom: 5px;
 }
 
 .banner-text span {
+    font-size: 17px;
     font-weight: 500;
 }
 
 .banner-text .banner-price {
+    font-size: 15px;
     color: #505050;
+    margin-bottom: 10px;
+}
+
+.banner-text .banner-product-color {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .banner-info .banner-text img {
@@ -200,7 +207,8 @@
     opacity: 80%;
 }
 
-.product-banner .banner-in .plus01:hover+.banner-info {
+
+.product-banner .banner-in:hover .banner-info {
     opacity: 1;
     visibility: visible;
 }
@@ -210,15 +218,157 @@
     height: 120px;
 }
 
-.product-banner:hover .banner-info {
-    display: flex;
-}
-
-.product-banner .banner-in:hover {
-    background: #fff;
-}
-
 .product-banner .banner-in .plus01 img {
+    width: 15px;
+    height: 15px;
+}
+
+/* banner-in2 */
+.product-banner .banner-in2 .plus02 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    right: 20%;
+    background: lightgray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.banner-in2 .banner-info {
+    position: absolute;
+    top: 45%;
+    right: 12%;
+    display: flex;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.banner-in2 .banner-info .banner-text .banner-product {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.banner-in2 .banner-info .banner-text span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.banner-in2 .banner-text .banner-product-color {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.banner-in2 .banner-text span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.banner-in2 .banner-text .banner-price {
+    font-size: 15px;
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.banner-in2 .banner-info .banner-text img {
+    width: 20px;
+    height: 20px;
+    opacity: 80%;
+}
+
+
+.product-banner .banner-in2:hover .banner-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-banner .banner-in2 .plus02 img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* banner-in3 */
+.product-banner .banner-in3 .plus03 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 56%;
+    left: 45%;
+    background: lightgray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.banner-in3 .banner-info {
+    position: absolute;
+    top: 48%;
+    left: 28%;
+    display: flex;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.banner-in3 .banner-info .banner-text .banner-product {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.banner-in3 .banner-info .banner-text span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.banner-in3 .banner-text .banner-product-color {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.banner-in3 .banner-text span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.banner-in3 .banner-text .banner-price {
+    font-size: 15px;
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.banner-in3 .banner-info .banner-text img {
+    width: 20px;
+    height: 20px;
+    opacity: 80%;
+}
+
+.product-banner .banner-in3:hover .banner-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-banner .banner-in3 .plus03 img {
     width: 15px;
     height: 15px;
 }

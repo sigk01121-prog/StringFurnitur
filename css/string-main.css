@@ -167,7 +167,6 @@ header .head .nav ul {
     left: 0;
     display: block;
     opacity: 1;
-
 }
 
 .best-product-list .product-item-title,
@@ -289,13 +288,18 @@ header .head .nav ul {
 
 .brand-story-area .brand-story .brand-story-text {
     max-width: 770px;
-    max-height: 237px;
-    font-size: 18px;
-    line-height: 1.3;
+    /*  max-height: 237px; */
 }
 
 .brand-story-text .story-text1 {
+    font-size: 22px;
     margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+.brand-story-text .brand-story-text2 {
+    font-size: 22px;
+    line-height: 1.3;
 }
 
 /* footer */
@@ -315,14 +319,17 @@ footer .foot-info {
     align-items: flex-end;
 }
 
-footer .foot-info .foot-links {
-    font-size: 16px;
-    font-weight: 300;
-}
-
 .foot-links .add,
 .foot-links .email {
+    font-size: 18px;
+    font-weight: 300;
     margin-bottom: 15px;
+}
+
+.foot-links .tel,
+.foot-links .copy {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 footer .foot-social {
